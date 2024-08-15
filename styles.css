@@ -14,13 +14,13 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out; /* Smooth transition */
+    transition: all 0.3s ease-in-out; 
 }
 
 .stopwatch.expanded {
-    width: 300px; /* Expanded width */
-    height: 300px; /* Expanded height */
-    padding: 40px; /* Extra padding for expanded view */
+    width: 300px; 
+    height: 300px; 
+    padding: 40px; 
 }
 
 #display {
