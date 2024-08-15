@@ -13,12 +13,12 @@ startStopButton.addEventListener("click", function() {
         timerInterval = setInterval(updateTime, 1000 / 60);
         startStopButton.textContent = "Pause";
         running = true;
-        stopwatchContainer.classList.add("expanded"); // Increase the size when started
+        stopwatchContainer.classList.add("expanded"); 
     } else {
         clearInterval(timerInterval);
         startStopButton.textContent = "Start";
         running = false;
-        stopwatchContainer.classList.remove("expanded"); // Revert to original size when paused
+        stopwatchContainer.classList.remove("expanded"); 
     }
 });
 
@@ -28,7 +28,7 @@ resetButton.addEventListener("click", function() {
     startStopButton.textContent = "Start";
     display.textContent = "00:00:00";
     difference = 0;
-    stopwatchContainer.classList.remove("expanded"); // Revert to original size when reset
+    stopwatchContainer.classList.remove("expanded"); 
 });
 
 function updateTime() {
